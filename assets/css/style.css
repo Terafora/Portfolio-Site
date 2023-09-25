@@ -4,6 +4,7 @@
 }
 body {
     font-family: 'Bai Jamjuree', sans-serif;
+    color: #E5E7EB;
 }
 
 
@@ -47,4 +48,20 @@ h1, h2, h3 {
     .intro {
         padding-left: 5rem;
     }
+}
+
+/* About Me Section */
+
+.about-me-section {
+    background-color: #F9FAFB;
+}
+
+.about-me-header {
+    padding: 0.5rem 20px;
+    background-color: #E5E7EB;
+    color: #858C96;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline;
 }
