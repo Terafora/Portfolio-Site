@@ -52,6 +52,14 @@ h1, h2, h3 {
     margin-right: 0.5rem;
 }
 
+.intro button {
+    background-color: #0D6EFD;
+    border-radius: 8px;
+    font-size: 14px;
+    color:#FFF;
+    border: none;
+    padding: 2px 15px;
+}
 
 /* About Me Section */
 
