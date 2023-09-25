@@ -7,5 +7,44 @@ body {
 }
 
 
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Navbar Elements */
 
+.navbar-brand, .nav-item {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Main Section Elements */
+
+.home {
+    padding-top: 75px;
+}
+
+#profile-pic {
+    max-width: 75%;
+    border-radius: 5px;
+    border: solid 10px #fafafa;
+    -webkit-box-shadow: 1px 10px 4px 4px rgba(194,194,194,0.58);
+    -moz-box-shadow: 1px 10px 4px 4px rgba(194,194,194,0.58);
+    box-shadow: 1px 10px 4px 4px rgba(194,194,194,0.58);
+    margin-bottom: 16px;
+}
+
+.prof-img-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-icon {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+@media screen and (min-width:992px) {
+    .intro {
+        padding-left: 5rem;
+    }
+}
