@@ -2,3 +2,13 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* Navbar Elements */
+
+nav.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
