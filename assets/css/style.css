@@ -4,7 +4,7 @@
 }
 body {
     font-family: 'Bai Jamjuree', sans-serif;
-    color: #E5E7EB;
+    color: #858C96;
 }
 
 
@@ -14,6 +14,10 @@ h1, h2, h3 {
 
 /* Navbar Elements */
 
+.navbar-brand {
+    font-weight: 900;
+}
+
 .navbar-brand, .nav-item {
     font-family: 'Poppins', sans-serif;
 }
@@ -22,6 +26,10 @@ h1, h2, h3 {
 
 .home {
     padding-top: 75px;
+}
+
+.home h1 {
+    font-weight: 700;
 }
 
 #profile-pic {
@@ -44,11 +52,6 @@ h1, h2, h3 {
     margin-right: 0.5rem;
 }
 
-@media screen and (min-width:992px) {
-    .intro {
-        padding-left: 5rem;
-    }
-}
 
 /* About Me Section */
 
@@ -59,9 +62,39 @@ h1, h2, h3 {
 .about-me-header {
     padding: 0.5rem 20px;
     background-color: #E5E7EB;
-    color: #858C96;
     font-size: 14px;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 8px;
     display: inline;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .intro {
+        padding: 10rem 0 10rem 10rem;
+        font-size: 16px;
+        line-height: 1.75rem;
+    }
+
+    .home {
+        min-height: 100vh
+    }
+
+    .home h1 {
+        font-size: 3rem;
+    }
 }
