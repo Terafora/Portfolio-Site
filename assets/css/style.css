@@ -7,7 +7,7 @@ body {
     color: #858C96;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -137,6 +137,10 @@ ul {
 .work-section {
     background-color: #F9FAFB;
 }
+
+
+
+
 
 
 @media screen and (min-width:992px) {
