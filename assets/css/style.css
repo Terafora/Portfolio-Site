@@ -11,6 +11,10 @@ h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
 }
 
+h2 {
+    font-weight: 700;
+}
+
 .brand-blue {
     color: #0D6EFD;
 }
@@ -61,7 +65,8 @@ ul {
 
 .social-icon {
     font-size: 1.2rem;
-    margin-right: 0.5rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
 }
 
 .intro button {
@@ -114,7 +119,7 @@ ul {
 
 .skills-section {
     padding-bottom: 2rem;
-    margin-bottom: 2rem;
+
 }
 
 .skill-header {
@@ -127,7 +132,11 @@ ul {
     margin-top: 1rem;
 }
 
+/* Work Section Styling */
 
+.work-section {
+    background-color: #F9FAFB;
+}
 
 
 @media screen and (min-width:992px) {
@@ -162,7 +171,6 @@ ul {
     }  
 
     .more-about-text h2 {
-        font-weight: 700;
         margin-bottom: 1.5rem;
     }
 
@@ -174,5 +182,6 @@ ul {
     .skills-section {
         padding-right: 10rem;
         padding-left: 10rem;
+
     }
 }
