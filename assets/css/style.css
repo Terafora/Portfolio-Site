@@ -27,6 +27,10 @@ ul {
     color: #858C96;
 }
 
+.bg-boot {
+    background-color: #702CF6;
+}
+
 /* Navbar Elements */
 
 .navbar-brand {
