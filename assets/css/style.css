@@ -168,6 +168,12 @@ ul {
         margin-right: 1rem;
     }
 
+    #profile-pic {
+        -webkit-box-shadow: 20px 28px 4px 4px rgba(0,0,0,0.58);
+        -moz-box-shadow: 20px 28px 4px 4px rgba(0,0,0,0.58);
+        box-shadow: 20px 28px 4px 4px rgba(0,0,0,0.58);
+    }
+
     #about-me-pic{
         -webkit-box-shadow: -20px 28px 4px 4px rgba(0,0,0,0.58);
         -moz-box-shadow: -20px 28px 4px 4px rgba(0,0,0,0.58);
