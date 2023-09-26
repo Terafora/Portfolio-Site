@@ -85,7 +85,7 @@ ul {
     background-color: #F9FAFB;
     margin-top: 2rem;
     padding-bottom: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .about-me-header {
@@ -110,10 +110,22 @@ ul {
 }
 
 
+/* Skills Section*/
 
+.skills-section {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
 
+.skill-header {
+    margin: 1rem auto 1rem auto;
+}
 
-
+.tech-icons {
+    height: 100px;
+    width: auto;
+    margin-top: 1rem;
+}
 
 
 
@@ -157,5 +169,10 @@ ul {
     .more-about-text ul li{
         padding-left: 0.5rem;
         padding-top: 1rem;
+    }
+
+    .skills-section {
+        padding-right: 10rem;
+        padding-left: 10rem;
     }
 }
