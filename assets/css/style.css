@@ -15,6 +15,14 @@ h1, h2, h3 {
     color: #0D6EFD;
 }
 
+ul {
+    color: #0D6EFD;
+}
+
+.regular {
+    color: #858C96;
+}
+
 /* Navbar Elements */
 
 .navbar-brand {
@@ -98,6 +106,7 @@ h1, h2, h3 {
 
 #about-me-pic{
     margin-top: 1.5em;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -146,7 +155,7 @@ h1, h2, h3 {
     }
 
     .more-about-text ul li{
-        padding-left: 2rem;
+        padding-left: 0.5rem;
         padding-top: 1rem;
     }
 }
