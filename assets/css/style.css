@@ -7,7 +7,6 @@ body {
     color: #858C96;
 }
 
-
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
 }
@@ -92,6 +91,11 @@ h1, h2, h3 {
     width: auto;
 }
 
+.about-me-list ul li::before{
+    color: #0D6EFD;
+}
+
+
 #about-me-pic{
     margin-top: 1.5em;
 }
@@ -121,6 +125,10 @@ h1, h2, h3 {
         font-size: 3rem;
     }
 
+    .social-icon{
+        margin-right: 1rem;
+    }
+
     #about-me-pic{
         -webkit-box-shadow: -20px 28px 4px 4px rgba(0,0,0,0.58);
         -moz-box-shadow: -20px 28px 4px 4px rgba(0,0,0,0.58);
@@ -128,10 +136,12 @@ h1, h2, h3 {
     }
 
     .more-about-text {
+        padding-top: 2rem;
         padding-right: 10rem;
     }  
 
     .more-about-text h2 {
+        font-weight: 700;
         margin-bottom: 1.5rem;
     }
 
