@@ -126,8 +126,12 @@ ul {
 
 }
 
+.skills-section h4 {
+    margin-bottom: 1rem;
+}
+
 .skill-header {
-    margin: 1rem auto 1rem auto;
+    margin: 1rem auto 2rem auto;
 }
 
 .tech-icons {
@@ -143,10 +147,24 @@ ul {
     padding-bottom: 1rem;
 }
 
+.work-header {
+    margin-bottom: 1.5rem;
+}
 
+.work-section h4 {
+    margin-bottom: 1.5rem;
+}
 
+/* Contact Section Styling */
 
+.contact-header {
+    margin-bottom: 1.5rem;
 
+}
+
+.contact-header h4 {
+    margin-bottom: 1.5rem;
+}
 
 @media screen and (min-width:992px) {
 
@@ -197,6 +215,10 @@ ul {
     .skills-section {
         padding-right: 10rem;
         padding-left: 10rem;
-
     }
+
+    .contact-section {
+        padding: auto 5rem;
+    }
+
 }
