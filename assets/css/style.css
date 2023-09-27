@@ -57,10 +57,6 @@ ul {
     font-weight: 700;
 }
 
-.intro h3{
-    font-family: 'Bai Jamjuree', sans-serif;
-}
-
 #profile-pic,  #about-me-pic{
     max-width: 75%;
     border-radius: 5px;
@@ -195,6 +191,16 @@ footer {
 }
 
 @media screen and (min-width:576px){
+
+.intro p {
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+
+.ext-info p{
+    font-size: 1rem;
+    line-height: 1rem;
+}
 
 h6 {
     font-size: 1.5rem;
