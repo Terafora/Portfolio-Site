@@ -31,6 +31,11 @@ ul {
     background-color: #702CF6;
 }
 
+.section-alt {
+    background-color: #F9FAFB;
+}
+
+
 /* Navbar Elements */
 
 .navbar-brand {
@@ -91,7 +96,6 @@ ul {
 /* About Me Section */
 
 .about-me-section {
-    background-color: #F9FAFB;
     margin-top: 2rem;
     padding-bottom: 2rem;
     margin-bottom: 1rem;
@@ -143,7 +147,6 @@ ul {
 /* Work Section Styling */
 
 .work-section {
-    background-color: #F9FAFB;
     padding-bottom: 1rem;
 }
 
