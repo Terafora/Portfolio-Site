@@ -166,6 +166,32 @@ ul {
     margin-bottom: 1.5rem;
 }
 
+.copy-btn:hover{
+    color: #0a58ca;
+}
+
+.contact-info {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-icon:hover{
+    color:#0a58ca;
+}
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width:576px){
+
+h6 {
+    font-size: 1.5rem;
+}
+
+}
+
 @media screen and (min-width:992px) {
 
     .intro {
@@ -220,5 +246,7 @@ ul {
     .contact-section {
         padding: auto 5rem;
     }
+
+
 
 }
