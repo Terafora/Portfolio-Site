@@ -99,6 +99,7 @@ ul {
     margin-top: 2rem;
     padding-bottom: 2rem;
     margin-bottom: 1rem;
+    min-height: 100vh;
 }
 
 .about-me-header {
@@ -111,6 +112,8 @@ ul {
     display: inline;
     width: auto;
 }
+
+
 
 .about-me-list ul li::before{
     color: #0D6EFD;
