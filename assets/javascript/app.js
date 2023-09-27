@@ -17,6 +17,7 @@ let cards = document.getElementsByClassName("card")
 let themeChange = false
 
 function themeChanger() {
+  
   if(themeChange === false){
     //darkmode code
     mainBG.style.backgroundColor = "#000"
