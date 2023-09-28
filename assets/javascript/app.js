@@ -45,7 +45,7 @@ function themeChanger() {
 
 
 //language select
-
+/*
 const englishLang = document.querySelectorAll(".english")
 const frenchLang = document.querySelectorAll(".french")
 const japaneseLang = document.querySelectorAll(".japanese")
@@ -79,6 +79,7 @@ function japaneseLanguageSwitch(){
 }
 
 document.getElementById("japanese-switch").addEventListener("click", console.log("click"));
+*/
 
 //scroll animations
 
