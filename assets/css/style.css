@@ -72,26 +72,19 @@ ul {
     margin-right: auto;
 }
 
+.connect {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
 .social-icon {
-    font-size: 1.2rem;
-    margin-right: 0.25rem;
-    margin-left: 0.25rem;
+    font-size: 2.5rem;
 }
 
-.intro button {
-    background-color: #0D6EFD;
-    border-radius: 8px;
-    font-size: 14px;
-    color:#FFF;
-    border: none;
-    padding: 2px 15px;
-    font-weight: 700;
-}
-
-.intro button:hover {
-    cursor: pointer;
-    background-color: #0a58ca;
-}
+.social-icon:hover {
+    color: #0a58ca;
+}  
 
 /* About Me Section */
 
