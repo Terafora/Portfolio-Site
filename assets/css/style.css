@@ -35,6 +35,19 @@ ul {
     background-color: #F9FAFB;
 }
 
+/* language Selection */
+
+.english {
+    display: block; 
+}
+
+.french {
+    display: none;
+}
+
+.japanese {
+    display: none;
+}
 
 /* Navbar Elements */
 

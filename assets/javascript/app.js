@@ -43,6 +43,43 @@ function themeChanger() {
   themeChange = !themeChange
 }
 
+
+//language select
+
+const englishLang = document.querySelectorAll(".english")
+const frenchLang = document.querySelectorAll(".french")
+const japaneseLang = document.querySelectorAll(".japanese")
+
+let englishActive = true
+let frenchActive = false
+let japaneseActive = false
+
+function hideElements(elements) {
+  elements.forEach((element) => {
+    element.style.display = "none";
+  });
+}
+
+function japaneseLanguageSwitch(){
+  if(!japaneseActive){
+    japaneseActive = true
+
+    if(englishActive){
+      englishActive = false
+      hideElements(englishLang)
+    } else {
+      frenchActive = false
+      hideElements(frenchLang)
+    }
+    
+    japaneseLang.forEach((element) => {
+      element.style.display = "block";}
+    )
+  }
+}
+
+document.getElementById("japanese-switch").addEventListener("click", console.log("click"));
+
 //scroll animations
 
 const observer = new IntersectionObserver((entries) => {
