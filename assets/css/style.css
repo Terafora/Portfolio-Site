@@ -80,6 +80,7 @@ ul {
 
 .social-icon {
     font-size: 2.5rem;
+    margin-right: 0.5rem;
 }
 
 .social-icon:hover {
@@ -182,6 +183,32 @@ footer {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+
+/* Animations */
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}
+
+@media(prefers-reduced-motion){
+
+    .hidden {
+        transition: none;
+    }
+
+}
+
 
 @media screen and (min-width:576px){
 
