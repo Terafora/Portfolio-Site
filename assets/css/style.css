@@ -7,6 +7,24 @@ body {
     color: #858C96;
 }
 
+/* Animations */
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}
+
+/* General Stylings */
+
 h1, h2, h3, h4, h5 {
     font-family: 'Poppins', sans-serif;
 }
@@ -155,46 +173,15 @@ ul {
     width: auto;
     margin-top: 1rem;
     opacity: 0;
-    animation-name: fadeIn;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: 1s;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.tech-icons:nth-child(2){
-    animation-delay: 200ms;
-}
-
-.tech-icons:nth-child(3){
-    animation-delay: 400ms;
-}
-
-.tech-icons:nth-child(4){
-    animation-delay: 600ms;
-}
-
-.tech-icons:nth-child(5){
-    animation-delay: 800ms;
-}
-
-.tech-icons:nth-child(6){
-    animation-delay: 1000ms;
-}
-
-.tech-icons:nth-child(7){
-    animation-delay: 1200ms;
-}
-
-.tech-icons:nth-child(8){
-    animation-delay: 1400ms;
+.tech-icons-cards-show {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
 }
 
 /* Work Section Styling */
@@ -210,6 +197,8 @@ ul {
 .work-section h4 {
     margin-bottom: 1.5rem;
 }
+
+
 
 /* Contact Section Styling */
 
