@@ -172,6 +172,11 @@ ul {
     height: 100px;
     width: auto;
     margin-top: 1rem;
+    transition: 1s;
+}
+
+.tech-icons:hover {
+    transform: scale(1.75);
 }
 
 /* Work Section Styling */
