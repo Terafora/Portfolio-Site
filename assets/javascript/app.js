@@ -94,20 +94,6 @@ const observer = new IntersectionObserver((entries) => {
   })
 })
 
-const techObserve = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    console.log(entry)
-    if(entry.isIntersecting) {
-      entry.target.classList.add("tech-icons-cards-show")
-    } else {
-      entry.target.classList.remove("tech-icons-cards-show")
-    }
-  })
-})
-
-const icons = document.querySelectorAll(".tech-icons")
-const workCards = document.querySelectorAll(".work-cards")
 const hiddenElements = document.querySelectorAll('.hidden')
 hiddenElements.forEach((el) => observer.observe(el))
-icons.forEach((el) => techObserve.observe(el))
-workCards.forEach((el) => techObserve.observe(el))
+
