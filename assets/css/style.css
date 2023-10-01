@@ -182,7 +182,7 @@ ul {
 /* Work Section Styling */
 
 .work-section {
-    padding-bottom: 1rem;
+    padding-bottom: 2.8rem;
 }
 
 .work-header {
@@ -193,7 +193,13 @@ ul {
     margin-bottom: 1.5rem;
 }
 
+.work-card {
+    transition: 1s;
+}
 
+.work-card:hover {
+    transform: scale(1.25)
+}
 
 /* Contact Section Styling */
 
