@@ -7,21 +7,6 @@ body {
     color: #858C96;
 }
 
-/* Animations */
-
-
-.hidden {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
-    transition: all 1s;
-}
-
-.show {
-    opacity: 1;
-    transform: translateX(0);
-    filter: blur(0);
-}
 
 /* General Stylings */
 
@@ -51,20 +36,6 @@ ul {
 
 .section-alt {
     background-color: #F9FAFB;
-}
-
-/* language Selection */
-
-.english {
-    display: block; 
-}
-
-.french {
-    display: none;
-}
-
-.japanese {
-    display: none;
 }
 
 /* Navbar Elements */
@@ -233,19 +204,6 @@ footer {
 
 /* Animations */
 
-
-.hidden {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
-    transition: all 1s;
-}
-
-.show {
-    opacity: 1;
-    transform: translateX(0);
-    filter: blur(0);
-}
 
 @media(prefers-reduced-motion){
 
