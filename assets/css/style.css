@@ -165,6 +165,8 @@ ul {
 }
 
 .work-card {
+    width: 18rem;
+    padding: 0;
     transition: 1s;
 }
 
