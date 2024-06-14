@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "name": "terafora",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm run dev --prefix frontend",
+    "server": "npm run dev --prefix backend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
